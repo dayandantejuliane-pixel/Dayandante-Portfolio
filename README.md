@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This repository contains a static website show
 
 ## About Me
 
-Hi! I’m **Juliane Rebecca Dayandante**, a BS Information Technology student passionate about:
+Hi! I’m **Juliane Rebecca Dayandante**, a graduate of BS Information Technology at Bicol Univeristy and I'm passionate about:
 
 - Front-End Development
 - Back-End Development
