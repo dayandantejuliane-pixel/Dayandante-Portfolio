@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0705'/%3E%3Ctext x='45' y='70' font-family='Outfit, sans-serif' font-size='50' font-weight='300' text-anchor='middle' fill='%23e67e22'%3E/%3C/text%3E%3Ccircle cx='62' cy='42' r='4' fill='%23f39c12'/%3E%3C/svg%3E">
   <style>
+    html {
+  scroll-behavior: smooth;
+}
     /* ---------- Orange Dark Palette ---------- */
     :root {
       --bg-primary: #0a0705;
@@ -648,7 +651,7 @@
 <!-- ============================================ -->
 <!-- EDUCATION · 4 CARDS IN A ROW                -->
 <!-- ============================================ -->
-<section class="py-20 px-6 md:px-12 bg-[#100c09] border-t border-orange-subtle">
+<section id="education" class="py-20 px-6 md:px-12 bg-[#100c09] border-t border-orange-subtle">
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-16 scroll-fade-up">
       <span class="text-orange-soft text-xs tracking-widest uppercase">Journey</span>
@@ -870,7 +873,7 @@
 <!-- ============================================ -->
 <!-- FEATURED PROJECTS · HORIZONTAL SCROLL       -->
 <!-- ============================================ -->
-<section class="py-20 px-6 md:px-12 bg-[#0a0705] border-t border-orange-subtle">
+<section id="featured-projects" class="py-20 px-6 md:px-12 bg-[#0a0705] border-t border-orange-subtle">
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12 scroll-fade-up">
       <span class="text-orange-soft text-xs tracking-widest uppercase">Portfolio</span>
@@ -1021,10 +1024,18 @@
         <h3 class="text-2xl font-bold">Juliane Rebecca Dayandante</h3>
         <p class="text-text-muted text-sm">IT Graduate · Full-Stack Developer</p>
       </div>
-      <div class="flex flex-wrap gap-4">
-        <button class="bg-[#e67e22] text-white px-6 py-2 rounded-full font-semibold text-sm hover:bg-[#f39c12] transition-all">Send Email</button>
-        <button class="border border-orange-subtle text-orange-soft px-6 py-2 rounded-full text-sm hover:bg-orange-glow transition-all">View Projects</button>
-      </div>
+   <div class="flex flex-wrap gap-4">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dayandantejuliane@gmail.com" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     class="bg-[#e67e22] text-white px-6 py-2 rounded-full font-semibold text-sm hover:bg-[#f39c12] transition-all inline-block">
+    Send Email
+  </a>
+  <a href="#featured-projects" 
+     class="border border-orange-subtle text-orange-soft px-6 py-2 rounded-full text-sm hover:bg-orange-glow transition-all inline-block">
+    View Projects
+  </a>
+</div>
     </div>
     <hr class="section-divider" />
     <div class="grid md:grid-cols-3 gap-8 mt-12">
@@ -1038,20 +1049,21 @@
         <h4 class="text-orange-soft text-xs uppercase tracking-wider font-bold">Connect</h4>
         <div class="flex gap-4 mt-3">
           <a href="#" class="footer-link text-sm">Portfolio</a>
-          <a href="#" class="footer-link text-sm">Facebook</a>
+          <a href="https://www.facebook.com/juliane.dayandante" target="_blank" rel="noopener noreferrer" class="footer-link text-sm">Facebook</a>
           <a href="#" class="footer-link text-sm">LinkedIn</a>
         </div>
       </div>
-      <div>
-        <h4 class="text-orange-soft text-xs uppercase tracking-wider font-bold">Quick Links</h4>
-        <div class="grid grid-cols-2 gap-2 mt-3">
-          <a href="#" class="footer-link text-sm">About</a>
-          <a href="#" class="footer-link text-sm">Education</a>
-          <a href="#" class="footer-link text-sm">Projects</a>
-          <a href="#" class="footer-link text-sm">Tools</a>
-          <a href="#" class="footer-link text-sm">Experience</a>
-          <a href="#" class="footer-link text-sm">Contact</a>
-        </div>
+     <div>
+  <h4 class="text-orange-soft text-xs uppercase tracking-wider font-bold">Quick Links</h4>
+  <div class="grid grid-cols-2 gap-2 mt-3">
+    <a href="#about" class="footer-link text-sm">About</a>
+    <a href="#education" class="footer-link text-sm">Education</a>
+    <a href="#featured-projects" class="footer-link text-sm">Projects</a>
+    <a href="#tools" class="footer-link text-sm">Tools</a>
+    <a href="#experience" class="footer-link text-sm">Experience</a>
+    <a href="#contact" class="footer-link text-sm">Contact</a>
+  </div>
+</div>
       </div>
     </div>
     <hr class="section-divider mt-12" />
